@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred History - Divine Journey from Creation to Redemption</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Audio Player -->
+<div class="audio-control">
+    <button id="mute-btn" class="audio-btn">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    <iframe id="bg-audio" src="https://www.youtube.com/embed/dNalI2FT5TA?enablejsapi=1&autoplay=1&loop=1&playlist=dNalI2FT5TA" frameborder="0" allow="autoplay" style="display:none;"></iframe>
+</div>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-cross"></i>
+                </div>
+                <div>
+                    <h1>SACRED HISTORY</h1>
+                    <span>From Creation to Redemption - The Divine Narrative</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-page="timeline">Timeline</a></li>
+                    <li><a href="#" class="nav-link" data-page="prophets">Prophets</a></li>
+                    <li><a href="#" class="nav-link" data-page="apostles">Apostles</a></li>
+                    <li><a href="#" class="nav-link" data-page="books">Books</a></li>
+                    <li><a href="#" class="nav-link" data-page="tree">Family Tree</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page-container active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>THE DIVINE NARRATIVE</h2>
+                <p>Journey through the sacred history of God's relationship with humanity</p>
+                
+                <div class="hero-verse">
+                    "In the beginning God created the heavens and the earth." 
+                    <br><strong>- Genesis 1:1</strong>
+                </div>
+                
+                <a href="#timeline" class="btn">Explore the Timeline</a>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section" id="timeline">
+            <div class="section-title">
+                <h2>The Sacred Timeline</h2>
+            </div>
+            
+            <div class="timeline">
+                <!-- Creation -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>The Creation</h3>
+                        <p>In the beginning, God spoke the universe into existence. He created light, sky, land, plants, celestial bodies, sea creatures, birds, animals, and finally, humanity - Adam and Eve, in His own image.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <span>Garden of Eden</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-tree"></i>
+                                </div>
+                                <span>Tree of Life</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-apple-alt"></i>
+                                </div>
+                                <span>Tree of Knowledge</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Patriarchs -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>The Patriarchs</h3>
+                        <p>God established His covenant with Abraham, promising to make him the father of many nations. This covenant continued through Isaac, Jacob, and the twelve tribes of Israel.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span>Abraham</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                                <span>Mount Moriah</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-ladder"></i>
+                                </div>
+                                <span>Jacob's Ladder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Exodus -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>Exodus & The Law</h3>
+                        <p>God delivered His people from Egyptian bondage through Moses, parted the Red Sea, and gave the Law at Mount Sinai, establishing the foundation for Israel's relationship with God.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-staff-snake"></i>
+                                </div>
+                                <span>Moses</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-tablets"></i>
+                                </div>
+                                <span>Ten Commandments</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-archway"></i>
+                                </div>
+                                <span>Tabernacle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Prophets -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>Age of Prophets</h3>
+                        <p>God raised prophets like Samuel, Elijah, Isaiah, Jeremiah, and Daniel to guide, warn, and comfort His people, foretelling the coming Messiah and God's redemptive plan.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <span>Elijah</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-lion"></i>
+                                </div>
+                                <span>Daniel</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-dove"></i>
+                                </div>
+                                <span>Holy Spirit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Christ -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>Jesus Christ</h3>
+                        <p>The Son of God took human form through the Virgin Mary, taught the Kingdom of God, performed miracles, died for humanity's sins, and rose again, conquering death.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-baby"></i>
+                                </div>
+                                <span>Nativity</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-cross"></i>
+                                </div>
+                                <span>Calvary</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-tomb"></i>
+                                </div>
+                                <span>Resurrection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Apostles -->
+                <div class="era">
+                    <div class="era-content">
+                        <h3>The Apostles</h3>
+                        <p>Empowered by the Holy Spirit at Pentecost, the apostles spread the Gospel throughout the world, establishing the Church and writing the New Testament scriptures.</p>
+                        <div class="era-icons">
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <span>Pentecost</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <span>Epistles</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="icon-circle">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <span>Mission</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tree of Knowledge Section -->
+        <section class="tree-section">
+            <div class="tree-container">
+                <svg class="tree-image" viewBox="0 0 200 300">
+                    <path d="M100 10 Q 150 50, 100 90 T 50 130 T 100 170 T 150 210 T 100 250" 
+                          stroke="#D4AF37" fill="none" stroke-width="2" stroke-dasharray="5,5"/>
+                    <circle cx="100" cy="10" r="8" fill="#D4AF37"/>
+                    <circle cx="150" cy="50" r="8" fill="#D4AF37"/>
+                    <circle cx="100" cy="90" r="8" fill="#D4AF37"/>
+                    <circle cx="50" cy="130" r="8" fill="#D4AF37"/>
+                    <circle cx="100" cy="170" r="8" fill="#D4AF37"/>
+                    <circle cx="150" cy="210" r="8" fill="#D4AF37"/>
+                    <circle cx="100" cy="250" r="8" fill="#D4AF37"/>
+                </svg>
+                <div class="tree-content">
+                    <h3>The Tree of Knowledge</h3>
+                    <p>"And the Lord God commanded the man, saying, 'You may surely eat of every tree of the garden, but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.'"</p>
+                    <p>Genesis 2:16-17 reveals the divine commandment that tested humanity's obedience. This pivotal moment in sacred history represents humanity's choice between trusting God's wisdom or seeking autonomous knowledge.</p>
+                    <a href="#" class="btn">Study Genesis</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books Section -->
+        <section class="books-section">
+            <div class="section-title">
+                <h2>The Sacred Books</h2>
+            </div>
+            
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>The Pentateuch</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>The foundation of Scripture: the five books of Moses</p>
+                        <ul>
+                            <li>Genesis <span>Creation & Patriarchs</span></li>
+                            <li>Exodus <span>Liberation from Egypt</span></li>
+                            <li>Leviticus <span>Law & Holiness</span></li>
+                            <li>Numbers <span>Wilderness Journey</span></li>
+                            <li>Deuteronomy <span>Covenant Renewal</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>The Historical Books</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>Israel's journey in the Promised Land</p>
+                        <ul>
+                            <li>Joshua <span>Conquest of Canaan</span></li>
+                            <li>Judges <span>Cycles of Apostasy</span></li>
+                            <li>Ruth <span>Covenant Loyalty</span></li>
+                            <li>Samuel <span>United Kingdom</span></li>
+                            <li>Kings <span>Divided Monarchy</span></li>
+                            <li>Chronicles <span>Sacred History</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Wisdom & Poetry</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>Reflections on God's ways with humanity</p>
+                        <ul>
+                            <li>Job <span>Theodicy & Suffering</span></li>
+                            <li>Psalms <span>Worship & Prayer</span></li>
+                            <li>Proverbs <span>Wisdom for Life</span></li>
+                            <li>Ecclesiastes <span>Meaning of Life</span></li>
+                            <li>Song of Songs <span>Divine Love</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Major Prophets</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>God's messengers to Israel and nations</p>
+                        <ul>
+                            <li>Isaiah <span>The Holy One</span></li>
+                            <li>Jeremiah <span>The Weeping Prophet</span></li>
+                            <li>Lamentations <span>Mourning Jerusalem</span></li>
+                            <li>Ezekiel <span>Exile Visions</span></li>
+                            <li>Daniel <span>Apocalyptic Visions</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Minor Prophets</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>Twelve voices of judgment and hope</p>
+                        <ul>
+                            <li>Hosea <span>Unfaithful Israel</span></li>
+                            <li>Joel <span>Day of the Lord</span></li>
+                            <li>Amos <span>Justice & Righteousness</span></li>
+                            <li>Obadiah <span>Edom's Judgment</span></li>
+                            <li>Jonah <span>Mercy to Nineveh</span></li>
+                            <li>Micah <span>Ruler from Bethlehem</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>The New Covenant</h3>
+                    </div>
+                    <div class="book-body">
+                        <p>The life and teachings of Jesus Christ</p>
+                        <ul>
+                            <li>Matthew <span>Messianic King</span></li>
+                            <li>Mark <span>Suffering Servant</span></li>
+                            <li>Luke <span>Savior of All</span></li>
+                            <li>John <span>Eternal Word</span></li>
+                            <li>Acts <span>Spirit Empowered Church</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Prophets Page -->
+    <div id="prophets-page" class="page-container">
+        <section class="timeline-section">
+            <div class="section-title">
+                <h2>The Prophets of God</h2>
+                <p>Messengers who shaped salvation history</p>
+            </div>
+            
+            <div class="prophet-grid">
+                <!-- Adam -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Adam</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>The first man created in God's image, father of humanity</p>
+                        <ul>
+                            <li><span>Era:</span> Creation</li>
+                            <li><span>Scriptures:</span> Genesis 1-5</li>
+                            <li><span>Key Event:</span> The Fall</li>
+                            <li><span>Legacy:</span> First prophet (Moses 5:12)</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- Noah -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h3>Noah</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>Preacher of righteousness who preserved life through the Flood</p>
+                        <ul>
+                            <li><span>Era:</span> Antediluvian</li>
+                            <li><span>Scriptures:</span> Genesis 6-9</li>
+                            <li><span>Key Event:</span> The Great Flood</li>
+                            <li><span>Legacy:</span> Covenant of the Rainbow</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- Abraham -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Abraham</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>Father of the faithful, receiver of the Abrahamic Covenant</p>
+                        <ul>
+                            <li><span>Era:</span> Patriarchal</li>
+                            <li><span>Scriptures:</span> Genesis 12-25</li>
+                            <li><span>Key Event:</span> Covenant at Moriah</li>
+                            <li><span>Legacy:</span> Father of Many Nations</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- Moses -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-tablets"></i>
+                        </div>
+                        <h3>Moses</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>Deliverer of Israel, receiver of the Law</p>
+                        <ul>
+                            <li><span>Era:</span> Exodus</li>
+                            <li><span>Scriptures:</span> Exodus, Leviticus, Numbers, Deuteronomy</li>
+                            <li><span>Key Event:</span> Passover & Exodus</li>
+                            <li><span>Legacy:</span> Torah (Pentateuch)</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- Isaiah -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-feather-alt"></i>
+                        </div>
+                        <h3>Isaiah</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>Messianic prophet of the Old Testament</p>
+                        <ul>
+                            <li><span>Era:</span> Divided Kingdom</li>
+                            <li><span>Scriptures:</span> Book of Isaiah</li>
+                            <li><span>Key Event:</span> Vision of the Throne</li>
+                            <li><span>Legacy:</span> Prophecies of Christ</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- John the Baptist -->
+                <div class="prophet-card">
+                    <div class="prophet-header">
+                        <div class="prophet-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h3>John the Baptist</h3>
+                    </div>
+                    <div class="prophet-body">
+                        <p>Forerunner of the Messiah, baptizer of Jesus</p>
+                        <ul>
+                            <li><span>Era:</span> New Testament</li>
+                            <li><span>Scriptures:</span> Gospels</li>
+                            <li><span>Key Event:</span> Baptism of Jesus</li>
+                            <li><span>Legacy:</span> Voice in the Wilderness</li>
+                        </ul>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page-nav">
+                <a href="#" class="page-link">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link">Next</a>
+            </div>
+        </section>
+        
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="section-title">
+                <h2>Sacred Teachings</h2>
+                <p>Video resources for spiritual enrichment</p>
+            </div>
+            
+            <div class="video-grid">
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/watch?v=kxRexeMJtsI" title="Creation Story" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-info">
+                        <h4>The Creation Narrative</h4>
+                        <p>Genesis 1-2 visualized with theological commentary</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/watch?v=wuycEl-4Gnk" title="Abraham's Covenant" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-info">
+                        <h4>Abraham's Covenant Journey</h4>
+                        <p>Understanding the Abrahamic covenant through scripture</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/watch?v=7ppe2WTaNYQ" title="Moses and Exodus" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-info">
+                        <h4>The Exodus Revealed</h4>
+                        <p>Archaeological evidence of Israel's journey from Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Apostles Page -->
+    <div id="apostles-page" class="page-container">
+        <section class="timeline-section">
+            <div class="section-title">
+                <h2>The Apostles of Christ</h2>
+                <p>Foundations of the Early Church</p>
+            </div>
+            
+            <div class="apostle-container">
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>Peter</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>Originally named Simon, Jesus renamed him Peter (meaning "rock"). He was a fisherman and became the leader of the apostles.</p>
+                        <p><strong>Key Contributions:</strong> Preached at Pentecost, wrote two epistles, traditionally martyred in Rome.</p>
+                        <p><strong>Scriptures:</strong> Matthew 16:18, Acts 2, 1 & 2 Peter</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>John</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>The "beloved disciple," brother of James. He wrote the Gospel of John, three epistles, and Revelation.</p>
+                        <p><strong>Key Contributions:</strong> Cared for Mary, emphasized love, exiled to Patmos.</p>
+                        <p><strong>Scriptures:</strong> Gospel of John, 1-3 John, Revelation</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>Paul</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>Originally Saul, persecutor of Christians, converted on the road to Damascus. Apostle to the Gentiles.</p>
+                        <p><strong>Key Contributions:</strong> Wrote 13 epistles, established churches throughout Asia Minor and Europe.</p>
+                        <p><strong>Scriptures:</strong> Acts 9, Romans, Corinthians, Galatians, etc.</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>James</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>Brother of John, one of the "Sons of Thunder." First apostle martyred (Acts 12:2).</p>
+                        <p><strong>Key Contributions:</strong> Part of Jesus' inner circle, present at Transfiguration.</p>
+                        <p><strong>Scriptures:</strong> Matthew 4:21, Mark 3:17, Acts 12:2</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>Andrew</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>Peter's brother, originally a disciple of John the Baptist. Known for bringing people to Jesus.</p>
+                        <p><strong>Key Contributions:</strong> Brought Peter to Jesus, missionary to Scythia and Greece.</p>
+                        <p><strong>Scriptures:</strong> John 1:40-42, Matthew 4:18-20</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="apostle-card">
+                    <div class="apostle-header">
+                        <h3>Matthew</h3>
+                    </div>
+                    <div class="apostle-body">
+                        <p>Former tax collector, author of the first Gospel. Also known as Levi.</p>
+                        <p><strong>Key Contributions:</strong> Wrote Gospel emphasizing Jesus as Messiah fulfilling prophecy.</p>
+                        <p><strong>Scriptures:</strong> Matthew 9:9, Gospel of Matthew</p>
+                        <a href="#" class="page-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Family Tree Page -->
+    <div id="tree-page" class="page-container">
+        <section class="timeline-section">
+            <div class="section-title">
+                <h2>The Sacred Lineage</h2>
+                <p>From Adam to Jesus Christ - The Messianic Line</p>
+            </div>
+            
+            <div class="tree-container">
+                <div id="family-tree">
+                    <!-- Nodes will be dynamically inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="node-detail">
+                <span class="close-detail">&times;</span>
+                <h3 id="detail-name">Adam</h3>
+                <p id="detail-title">First Man</p>
+                <div id="detail-content">
+                    <p><strong>Scripture References:</strong> Genesis 1:26-5:5</p>
+                    <p><strong>Key Role:</strong> Father of humanity, first prophet</p>
+                    <p><strong>Significance:</strong> Created in God's image, received the first commandments, fell that mankind might be</p>
+                    <p><strong>Prophetic Utterance:</strong> "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh" (Genesis 2:24)</p>
+                    <a href="#" class="btn">Read Full Account</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Books Page -->
+    <div id="books-page" class="page-container">
+        <section class="books-section">
+            <div class="section-title">
+                <h2>The 81 Sacred Books</h2>
+                <p>Complete Ethiopian Orthodox Tewahedo Church Canon</p>
+            </div>
+            
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>The Law (Torah)</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>Genesis</li>
+                            <li>Exodus</li>
+                            <li>Leviticus</li>
+                            <li>Numbers</li>
+                            <li>Deuteronomy</li>
+                            <li>Joshua</li>
+                            <li>Judges</li>
+                            <li>Ruth</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Historical Books</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>1 & 2 Samuel</li>
+                            <li>1 & 2 Kings</li>
+                            <li>1 & 2 Chronicles</li>
+                            <li>Ezra</li>
+                            <li>Nehemiah</li>
+                            <li>Esther</li>
+                            <li>Judith</li>
+                            <li>Tobit</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Wisdom Literature</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>Job</li>
+                            <li>Psalms</li>
+                            <li>Proverbs</li>
+                            <li>Ecclesiastes</li>
+                            <li>Song of Solomon</li>
+                            <li>Wisdom of Solomon</li>
+                            <li>Sirach (Ecclesiasticus)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Major Prophets</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>Isaiah</li>
+                            <li>Jeremiah</li>
+                            <li>Lamentations</li>
+                            <li>Baruch</li>
+                            <li>Ezekiel</li>
+                            <li>Daniel</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>Minor Prophets</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>Hosea</li>
+                            <li>Joel</li>
+                            <li>Amos</li>
+                            <li>Obadiah</li>
+                            <li>Jonah</li>
+                            <li>Micah</li>
+                            <li>Nahum</li>
+                            <li>Habakkuk</li>
+                            <li>Zephaniah</li>
+                            <li>Haggai</li>
+                            <li>Zechariah</li>
+                            <li>Malachi</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-header">
+                        <h3>New Testament</h3>
+                    </div>
+                    <div class="book-body">
+                        <ul>
+                            <li>Matthew</li>
+                            <li>Mark</li>
+                            <li>Luke</li>
+                            <li>John</li>
+                            <li>Acts</li>
+                            <li>Romans</li>
+                            <li>1 & 2 Corinthians</li>
+                            <li>Galatians</li>
+                            <li>Ephesians</li>
+                            <li>Philippians</li>
+                            <li>Colossians</li>
+                            <li>1 & 2 Thessalonians</li>
+                            <li>1 & 2 Timothy</li>
+                            <li>Titus</li>
+                            <li>Philemon</li>
+                            <li>Hebrews</li>
+                            <li>James</li>
+                            <li>1 & 2 Peter</li>
+                            <li>1-3 John</li>
+                            <li>Jude</li>
+                            <li>Revelation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sacred History</h3>
+                <p>Exploring God's redemptive plan from Creation to the New Jerusalem through the lens of the Ethiopian Orthodox Tewahedo Church tradition.</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Creation & Early World</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Patriarchs & Matriarchs</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Exodus & Covenant</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Kings & Prophets</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Teachings</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Life of Christ</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Apostolic Ministry</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Church Fathers</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> 81 Books of the Bible</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Biblical Timeline</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Maps of the Holy Land</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Ancient Manuscripts</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Ethiopian Heritage</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; Based on the 81 Books of the Ethiopian Orthodox Tewahedo Church Canon.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
